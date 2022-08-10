@@ -11566,6 +11566,7 @@ fieldset:disabled .btn {
 
 body {
   font-family: "Lato", sans-serif;
+  color: #212529;
 }
 
 img {
@@ -11612,9 +11613,21 @@ img {
   padding-bottom: 2rem;
 }
 
+.p-8 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .px-8 {
   padding-right: 2rem;
   padding-left: 2rem;
+}
+
+.px-2-5 {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
 }
 
 .py-8 {
@@ -11632,6 +11645,14 @@ img {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .ms-8 {
@@ -11652,6 +11673,11 @@ img {
 
 .text-gray-600 {
   color: #6c757d;
+}
+
+.btn-outline-gray-400 {
+  color: #ced4da;
+  border-color: #ced4da;
 }
 
 .nav {
@@ -11724,6 +11750,42 @@ main {
   width: 40px;
   height: 40px;
   overflow: hidden;
+}
+
+.table > :not(caption) > * > * {
+  padding: 1rem;
+}
+
+thead .material-symbols-outlined {
+  font-variation-settings: "opsz" 18;
+  position: relative;
+  bottom: -6px;
+}
+
+.pagination-item {
+  border: 1px solid #198754;
+}
+
+.pagination-item:not(:last-child) {
+  border-right: 0;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: #198754;
+}
+
+.pagination-link:hover {
+  background: #198754;
+  color: #fff;
+}
+
+.modal-img {
+  width: 141px;
+  height: 141px;
+  background-image: url("../images/emir.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 /*# sourceMappingURL=all.css.map */
