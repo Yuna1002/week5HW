@@ -1,0 +1,32 @@
+.table > :not(caption) > * > * {
+  padding: $spacer;
+}
+thead {
+  .material-symbols-outlined {
+    font-variation-settings: "opsz" 18;
+    position: relative;
+    bottom: -6px;
+  }
+}
+
+.pagination-item {
+  border: 1px solid $success;
+  &:not(:last-child) {
+    border-right: 0;
+  }
+}
+.pagination-link {
+  text-decoration: none;
+  color: $success;
+  &:hover {
+    background: $success;
+    color: $white;
+  }
+}
+.modal-img {
+  width: 141px;
+  height: 141px;
+  background-image: url("../images/emir.jpeg");
+  background-size: cover;
+  background-position: center;
+}

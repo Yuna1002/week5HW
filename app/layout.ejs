@@ -17,7 +17,89 @@
   </head>
 
   <body>
-    <%- contents %>
+    <div class="content d-flex">
+      <div
+        class="sidebar d-flex flex-column justify-content-between bg-light py-8"
+      >
+        <ul class="nav flex-column flex-nowrap">
+          <h1 class="logo mb-8 ps-8">
+            <img src="./assets/images/logo.png" alt="logo" />
+          </h1>
+          <li class="nav-item mb-4">
+            <a
+              class="nav-link d-flex align-items-center fw-bold ps-8"
+              aria-current="page"
+              href="#"
+              ><span class="material-symbols-outlined me-3"> analytics </span
+              >Dashboard</a
+            >
+          </li>
+
+          <li class="nav-item mb-4">
+            <a
+              class="nav-link d-flex align-items-center fw-bold ps-8"
+              aria-current="page"
+              href="#"
+              ><span class="material-symbols-outlined me-3"> forum </span
+              >Question</a
+            >
+          </li>
+          <li class="nav-item mb-4">
+            <a
+              class="nav-link d-flex align-items-center fw-bold ps-8"
+              aria-current="page"
+              href="index.html"
+              ><span class="material-symbols-outlined me-3"> assignment </span
+              >Assignment</a
+            >
+          </li>
+          <li class="nav-item mb-4">
+            <a
+              class="nav-link d-flex align-items-center fw-bold ps-8"
+              aria-current="page"
+              href="#"
+              ><span class="material-symbols-outlined me-3">
+                video_library </span
+              >Course</a
+            >
+          </li>
+          <li class="nav-item r mb-4">
+            <a
+              class="nav-link d-flex align-items-center ps-8 fw-bold"
+              aria-current="page"
+              href="admin.html"
+              ><span class="material-symbols-outlined me-3">
+                supervisor_account </span
+              >Admin</a
+            >
+          </li>
+          <li class="nav-item mb-4">
+            <a
+              class="nav-link d-flex align-items-center ps-8 fw-bold"
+              aria-current="page"
+              href="#"
+              ><span class="material-symbols-outlined me-3"> settings </span
+              >Settings</a
+            >
+          </li>
+        </ul>
+        <div class="nav-member d-flex ms-8">
+          <div class="nav-member-img rounded-circle me-3">
+            <img src="./assets/images/andychen.jpeg" alt="頭貼" />
+          </div>
+          <div class="member-info">
+            <h3 class="fs-6 fw-bold mb-1">Andy Chen</h3>
+            <p class="fs-sm text-gray-600 mb-0">andy0401@mail.com</p>
+          </div>
+        </div>
+      </div>
+      <main>
+        <div class="container">
+
+      <%- contents %>
+    </div>
+  </div>
+</main>
 
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>

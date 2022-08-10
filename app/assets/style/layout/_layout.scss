@@ -1,0 +1,30 @@
+.nav {
+  width: 296px;
+  height: 100vh;
+}
+
+.nav-link {
+  color: $dark;
+  &:hover {
+    color: $success;
+    border-left: 4px solid $success;
+    padding-left: 28px;
+  }
+}
+.nav-member {
+  &-img {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    img {
+      width: 40px;
+      position: relative;
+      top: -6px;
+    }
+  }
+}
+main {
+  width: 78%;
+  padding-left: 32px;
+  padding-right: 32px;
+}
